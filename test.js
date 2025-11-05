@@ -43,17 +43,17 @@ console.log('Expected: [[0, 35]]');
 console.log();
 
 // Additional edge case tests
-console.log('Edge Case - Empty array:');
+console.log('edge Case - empty array:');
 console.log('Output:', mergeTimeRanges([], 10));
 console.log('Expected: []');
 console.log();
 
-console.log('Edge Case - Single range:');
+console.log('edge Case - single range:');
 console.log('Output:', mergeTimeRanges([[1, 5]], 10));
 console.log('Expected: [[1, 5]]');
 console.log();
 
-console.log('Edge Case - Overlapping ranges:');
+console.log('edge Case - overlapping ranges:');
 const ranges4 = [[1, 10], [5, 15], [14, 20]];
 console.log('Input:', ranges4);
 console.log('Output:', mergeTimeRanges(ranges4, 0));
