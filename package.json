@@ -1,0 +1,18 @@
+{
+  "name": "merge-time-ranges",
+  "version": "1.0.0",
+  "description": "A NodeJS module to merge discontinuous time ranges within a given threshold",
+  "main": "mergeTimeRanges.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "time",
+    "ranges",
+    "merge",
+    "intervals"
+  ],
+  "author": "",
+  "license": "ISC"
+}
